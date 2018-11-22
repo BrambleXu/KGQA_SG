@@ -8,6 +8,9 @@ df = pd.read_csv(path, header=0)
 # 1	张飞	刘备	younger_sworn_brother	义弟
 # 2	关羽	张飞	elder_sworn_brother	义兄
 
+# 删除重复行
+df = df.drop_duplicates()
+
 # 更改超昂为曹昂
 df.at[145, 'head'] = '曹昂'
 
