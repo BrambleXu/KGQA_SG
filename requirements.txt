@@ -35,7 +35,7 @@ prompt-toolkit==1.0.15
 ptyprocess==0.6.0
 py==1.7.0
 py2neo==4.1.0
-Pygments==2.2.0
+Pygments==2.7.4
 pyltp==0.2.1
 pytest==3.10.0
 python-dateutil==2.7.5
