@@ -25,7 +25,7 @@ mkl-random==1.0.1
 more-itertools==4.3.0
 neo4j-driver==1.6.2
 neotime==1.7.1
-numpy==1.15.3
+numpy==1.22.0
 pandas==0.23.4
 parso==0.3.1
 pexpect==4.6.0
