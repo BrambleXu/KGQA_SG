@@ -1,5 +1,5 @@
 [project]
-name = "kgqa-sg"
+name = "sanguo-kgqa"
 version = "0.2.0"
 description = "Three Kingdoms character relationships and bounded graph queries."
 readme = "README.md"

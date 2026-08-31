@@ -1,6 +1,6 @@
-# KGQA_SG · 三国人物关系图谱
+# Sanguo `Knowledge Graph` QA · 三国人物关系知识图谱问答系统
 
-[![CI](https://img.shields.io/github/actions/workflow/status/BrambleXu/KGQA_SG/ci.yml?branch=master&label=CI)](https://github.com/BrambleXu/KGQA_SG/actions/workflows/ci.yml?query=branch%3Amaster)
+[![CI](https://img.shields.io/github/actions/workflow/status/BrambleXu/sanguo-kgqa/ci.yml?branch=master&label=CI)](https://github.com/BrambleXu/sanguo-kgqa/actions/workflows/ci.yml?query=branch%3Amaster)
 [![Python](https://img.shields.io/badge/Python-3.14.7-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.1.3%2B-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![ECharts](https://img.shields.io/badge/ECharts-6.1.0-AA344D?logo=apacheecharts&logoColor=white)](https://echarts.apache.org/)

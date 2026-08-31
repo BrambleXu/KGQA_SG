@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>三国人物关系图谱</title>
+  <title>Sanguo Knowledge Graph QA · 三国人物关系知识图谱问答系统</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/graph.css') }}">
   <script defer src="{{ url_for('static', filename='js/echarts.min.js') }}"></script>
   <script defer src="{{ url_for('static', filename='js/graph.js') }}"></script>
 </head>
 <body data-mode="{{ mode }}">
   <header>
-    <a class="brand" href="{{ url_for('index') }}">三国人物关系图谱</a>
+    <a class="brand" href="{{ url_for('index') }}">Sanguo Knowledge Graph QA</a>
     <nav aria-label="主导航">
       <a href="{{ url_for('index') }}">全部关系</a>
       <a href="{{ url_for('search') }}">人物搜索</a>
@@ -44,6 +44,6 @@
     </div>
     <p class="hint">问答仅支持已有数据中的一至两层关系，不作开放域推理。未找到关系不等于历史上不存在该关系。</p>
   </main>
-  <footer>KGQA_SG · 三国人物关系图谱</footer>
+  <footer>Sanguo Knowledge Graph QA · 三国人物关系知识图谱问答系统</footer>
 </body>
 </html>

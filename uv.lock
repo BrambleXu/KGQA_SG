@@ -222,7 +222,7 @@ wheels = [
 ]
 
 [[package]]
-name = "kgqa-sg"
+name = "sanguo-kgqa"
 version = "0.2.0"
 source = { virtual = "." }
 dependencies = [
