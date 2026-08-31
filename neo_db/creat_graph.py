@@ -1,17 +1,38 @@
-from py2neo import Graph, Node, Relationship, NodeMatcher
-from config import graph
+"""Idempotent optional importer. Run: uv run --extra neo4j python -m neo_db.creat_graph"""
+import os
 
-with open("./raw_data/triples_processed.txt") as f:
-    graph.run("MATCH (n) DETACH DELETE n")
-    print("Delete all nodes and relationships")
-    for line in f.readlines():
-        relation_array = line.strip("\n").split(",")
-        print(relation_array)
-        graph.run("MERGE(p: Person{cate:'%s',Name: '%s'})" % (relation_array[3],relation_array[0]))
-        graph.run("MERGE(p: Person{cate:'%s',Name: '%s'})" % (relation_array[4], relation_array[1]))
-        graph.run(
-            "MATCH(e: Person), (cc: Person) \
-            WHERE e.Name='%s' AND cc.Name='%s'\
-            CREATE(e)-[r:%s{relation: '%s'}]->(cc)\
-            RETURN r" % (relation_array[0], relation_array[1], relation_array[2],relation_array[2])
-        )
+from graph_data import relations
+from neo_db.config import connect
+
+IMPORT_QUERY = """
+UNWIND $rows AS row
+MERGE (source:KGQASGPerson {Name: row.source})
+SET source.cate = row.source_group
+MERGE (target:KGQASGPerson {Name: row.target})
+SET target.cate = row.target_group
+MERGE (source)-[:RELATED_TO {relation: row.relation}]->(target)
+"""
+
+
+def import_graph(driver, database="neo4j"):
+    rows = [
+        dict(zip(("source", "target", "relation", "source_group", "target_group"), row))
+        for row in relations()
+    ]
+
+    def write(transaction):
+        transaction.run(IMPORT_QUERY, rows=rows).consume()
+
+    with driver.session(database=database) as session:
+        session.execute_write(write)
+    return len(rows)
+
+
+def main():
+    with connect() as driver:
+        count = import_graph(driver, os.environ.get("NEO4J_DATABASE", "neo4j"))
+    print(f"Imported {count} relationships; no existing data was deleted.")
+
+
+if __name__ == "__main__":
+    main()

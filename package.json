@@ -1,0 +1,9 @@
+{
+  "name": "kgqa-sg-browser-assets",
+  "private": true,
+  "description": "Pinned browser assets; Node is only required for maintenance.",
+  "scripts": {"vendor": "python3 scripts/vendor_assets.py"},
+  "dependencies": {
+    "echarts": "6.1.0"
+  }
+}

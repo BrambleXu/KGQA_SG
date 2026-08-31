@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三国人物关系图谱</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/graph.css') }}">
+  <script defer src="{{ url_for('static', filename='js/echarts.min.js') }}"></script>
+  <script defer src="{{ url_for('static', filename='js/graph.js') }}"></script>
+</head>
+<body data-mode="{{ mode }}">
+  <header>
+    <a class="brand" href="{{ url_for('index') }}">三国人物关系图谱</a>
+    <nav aria-label="主导航">
+      <a href="{{ url_for('index') }}">全部关系</a>
+      <a href="{{ url_for('search') }}">人物搜索</a>
+      <a href="{{ url_for('KGQA') }}">关系问答</a>
+    </nav>
+  </header>
+  <main>
+    <form id="query-form">
+      <label for="query">{{ '关系问题' if mode == 'qa' else '人物姓名' }}</label>
+      <input id="query" name="name" maxlength="200" required
+        {% if mode != 'qa' %}list="people"{% endif %}
+        placeholder="{{ '曹操的父亲是谁？' if mode == 'qa' else '例如：曹操' }}">
+      <button type="submit">{{ '提问' if mode == 'qa' else '搜索' }}</button>
+      <button type="button" id="reset">恢复全图</button>
+    </form>
+    <datalist id="people">{% for name in names %}<option value="{{ name }}">{% endfor %}</datalist>
+    <p id="status" role="status" aria-live="polite">正在加载图谱…</p>
+    <div class="workspace">
+      <section aria-label="人物关系图">
+        <div id="graph" role="img" aria-label="三国人物关系图，可通过下方人物列表选择节点"></div>
+        <p class="hint">颜色表示资料中的阵营分组；箭头的起点是终点的对应关系。例如：曹嵩 → 曹操「父亲」。缩放或拖动查看，点击人物阅读简介。</p>
+        <ul id="legend">{% for category in categories %}<li>{{ category }}</li>{% endfor %}</ul>
+        <details><summary>图中人物（键盘可操作）</summary><div id="person-list"></div></details>
+      </section>
+      <aside aria-label="人物详情">
+        <h1 id="person-name">人物详情</h1>
+        <p id="person-category"></p>
+        <img id="portrait" alt="" hidden>
+        <p id="summary">选择图中人物或使用搜索。资料来自仓库历史数据，未经逐条史料核实。</p>
+      </aside>
+    </div>
+    <p class="hint">问答仅支持已有数据中的一至两层关系，不作开放域推理。未找到关系不等于历史上不存在该关系。</p>
+  </main>
+  <footer>KGQA_SG · 三国人物关系图谱</footer>
+</body>
+</html>

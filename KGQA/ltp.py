@@ -1,38 +1,28 @@
-# -*- coding: utf-8 -*-
-import pyltp
-import os
-LTP_DATA_DIR = '/Users/smap10/Project/Models/ltp_data_v3.4.0'  # ltp模型目录的路径
+"""Bounded relationship parser; legacy module name kept for compatibility.
 
-def cut_words(words):
-    segmentor = pyltp.Segmentor()
-    seg_model_path = os.path.join(LTP_DATA_DIR, 'cws.model')
-    segmentor.load(seg_model_path)
-    words = segmentor.segment(words)
-    array_str="|".join(words)
-    array=array_str.split("|")
-    segmentor.release()
-    return array
+Recognizes graph names and at most two explicit relationship terms.
+This is not a general NLP model and requires no native LTP package.
+"""
+import re
+
+from graph_data import people, relations
+
+ALIASES = {"爸爸": "父亲", "爸": "父亲", "爹": "父亲", "妈妈": "母亲", "妈": "母亲", "娘": "母亲", "老婆": "妻", "妻子": "妻", "丈夫": "夫", "老公": "夫"}
 
 
-def words_mark(array):
+def normalize_relation(word):
+    return ALIASES.get(word, word)
 
-    # 词性标注模型路径，模型名称为`pos.model`
-    pos_model_path = os.path.join(LTP_DATA_DIR, 'pos.model')
-    postagger = pyltp.Postagger()  # 初始化实例
-    postagger.load(pos_model_path)  # 加载模型
-    postags = postagger.postag(array)  # 词性标注
-    pos_str=' '.join(postags)
-    pos_array=pos_str.split(" ")
-    postagger.release()  # 释放模型
-    return pos_array
 
-def get_target_array(words):
-    target_pos=['nh','n']
-    target_array=[]
-    seg_array=cut_words(words)
-    pos_array = words_mark(seg_array)
-    for i in range(len(pos_array)):
-        if pos_array[i] in target_pos:
-            target_array.append(seg_array[i])
-    target_array.append(seg_array[1])
-    return target_array
+def get_target_array(question):
+    question = question.strip()
+    name = next((name for name in sorted(people(), key=len, reverse=True) if question.startswith(name + "的")), None)
+    if name is None:
+        raise ValueError("请输入已知人物的关系，例如：曹操的父亲是谁？")
+    rest = question[len(name) + 1:]
+    rest = re.sub(r"(?:是|有)?(?:谁|哪位|哪些人|哪些)(?:呢)?[？?。！!]*$", "", rest)
+    terms = [normalize_relation(term) for term in rest.split("的")]
+    supported = {normalize_relation(row[2]) for row in relations()}
+    if not 1 <= len(terms) <= 2 or any(term not in supported for term in terms):
+        raise ValueError("仅支持数据中的一至两层关系，例如：曹操的父亲是谁？")
+    return [name, *terms]

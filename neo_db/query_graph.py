@@ -1,81 +1,33 @@
-from neo_db.config import graph, CA_LIST, similar_words
-from spider.show_profile import get_profile
-import codecs
-import os
-import json
-import base64
+"""Read-only local queries. Neo4j is an optional teaching/export tool."""
+from KGQA.ltp import normalize_relation
+from graph_data import chart_data, people, person_profile, relations
+
 
 def query(name):
-    data = graph.run(
-    "match(p )-[r]->(n:Person{Name:'%s'}) return  p.Name,r.relation,n.Name,p.cate,n.cate\
-        Union all\
-    match(p:Person {Name:'%s'}) -[r]->(n) return p.Name, r.relation, n.Name, p.cate, n.cate" % (name,name)
-    )
-    data = list(data)
-    return get_json_data(data)
-def get_json_data(data):
-    json_data={'data':[],"links":[]}
-    d=[]
-    
-    
-    for i in data:
-        # print(i["p.Name"], i["r.relation"], i["n.Name"], i["p.cate"], i["n.cate"])
-        d.append(i['p.Name']+"_"+i['p.cate'])
-        d.append(i['n.Name']+"_"+i['n.cate'])
-        d=list(set(d))
-    name_dict={}
-    count=0
-    for j in d:
-        j_array=j.split("_")
-    
-        data_item={}
-        name_dict[j_array[0]]=count
-        count+=1
-        data_item['name']=j_array[0]
-        data_item['category']=CA_LIST[j_array[1]]
-        json_data['data'].append(data_item)
-    for i in data:
-   
-        link_item = {}
-        
-        link_item['source'] = name_dict[i['p.Name']]
-        
-        link_item['target'] = name_dict[i['n.Name']]
-        link_item['value'] = i['r.relation']
-        json_data['links'].append(link_item)
+    if name not in people():
+        raise KeyError(name)
+    return chart_data([row for row in relations() if name in row[:2]], [name])
 
-    return json_data
-# f = codecs.open('./static/test_data.json','w','utf-8')
-# f.write(json.dumps(json_data,  ensure_ascii=False))
+
 def get_KGQA_answer(array):
-    data_array=[]
-    for i in range(len(array)-2):
-        if i==0:
-            name=array[0]
-        else:
-            name=data_array[-1]['p.Name']
-           
-        data = graph.run(
-            "match(p)-[r:%s{relation: '%s'}]->(n:Person{Name:'%s'}) return  p.Name,n.Name,r.relation,p.cate,n.cate" % (
-                similar_words[array[i+1]], similar_words[array[i+1]], name)
-        )
-       
-        data = list(data)
-        print(data)
-        data_array.extend(data)
-        
-        print("==="*36)
-    with open("./spider/images/"+"%s.jpg" % (str(data_array[-1]['p.Name'])), "rb") as image:
-            base64_data = base64.b64encode(image.read())
-            b=str(base64_data)
-          
-    return [get_json_data(data_array), get_profile(str(data_array[-1]['p.Name'])), b.split("'")[1]]
+    if not 2 <= len(array) <= 3:
+        raise ValueError("仅支持一至两层关系")
+    if array[0] not in people():
+        raise KeyError(array[0])
+    paths = {array[0]: [[]]}
+    for relation in array[1:]:
+        next_paths = {}
+        for row in relations():
+            if row[1] in paths and normalize_relation(row[2]) == normalize_relation(relation):
+                next_paths.setdefault(row[0], []).extend(path + [row] for path in paths[row[1]])
+        paths = next_paths
+    rows = [row for person_paths in paths.values() for path in person_paths for row in path]
+    return {
+        "graph": chart_data(rows, [array[0]]),
+        "answers": sorted(paths),
+        "message": "、".join(sorted(paths)) if paths else "数据中未记录匹配关系；这不代表历史上不存在。",
+    }
+
+
 def get_answer_profile(name):
-    with open("./spider/images/"+"%s.jpg" % (str(name)), "rb") as image:
-        base64_data = base64.b64encode(image.read())
-        b = str(base64_data)
-    return [get_profile(str(name)), b.split("'")[1]]
-        
-
-
-
+    return person_profile(name)

@@ -1,0 +1,9 @@
+{
+  "package": "echarts",
+  "version": "6.1.0",
+  "sha256": {
+    "static/js/echarts.min.js": "b66b25aeb4df84e33199dc21694014d336d222cbd9deb0e5a7c14bd6aa0d0fd0",
+    "static/vendor/echarts-LICENSE": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+    "static/vendor/echarts-NOTICE": "d491d358344f842685c1b1585970999db65fe30ecf7ef3867af8814f4016c016"
+  }
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "text": "Select alert: XSS in jQuery as used in Drupal, Backdrop CMS, and other products\nXSS in jQuery as used in Drupal, Backdrop CMS, and other products Moderate\n#40 opened  • Detected in jquery (npm) • static/js/jquery-2.2.4.min.js",
+    "title": "XSS in jQuery as used in Drupal, Backdrop CMS, and other products",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/40"
+  },
+  {
+    "text": "Select alert: Pallets Werkzeug vulnerable to Path Traversal\nPallets Werkzeug vulnerable to Path Traversal High\n#21 opened  • Detected in werkzeug (pip) • requirements.txt",
+    "title": "Pallets Werkzeug vulnerable to Path Traversal",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/21"
+  },
+  {
+    "text": "Select alert: Numpy Deserialization of Untrusted Data\nNumpy Deserialization of Untrusted Data Critical\n#80 opened  • Detected in numpy (pip) • requirements.txt",
+    "title": "Numpy Deserialization of Untrusted Data",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/80"
+  },
+  {
+    "text": "Select alert: Exposure of Sensitive Information to an Unauthorized Actor in urllib3\nExposure of Sensitive Information to an Unauthorized Actor in urllib3 Critical\n#1 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "Exposure of Sensitive Information to an Unauthorized Actor in urllib3",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/1"
+  },
+  {
+    "text": "Select alert: py vulnerable to Regular Expression Denial of Service\npy vulnerable to Regular Expression Denial of Service High\n#7 opened  • Detected in py (pip) • requirements.txt\n#6",
+    "title": "py vulnerable to Regular Expression Denial of Service",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/7"
+  },
+  {
+    "text": "Select alert: Pygments vulnerable to Regular Expression Denial of Service (ReDoS)\nPygments vulnerable to Regular Expression Denial of Service (ReDoS) High\n#6 opened  • Detected in Pygments (pip) • requirements.txt",
+    "title": "Pygments vulnerable to Regular Expression Denial of Service (ReDoS)",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/6"
+  },
+  {
+    "text": "Select alert: Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)\nDecompression-bomb safeguards bypassed when following HTTP redirects (streaming API) High\n#66 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/66"
+  },
+  {
+    "text": "Select alert: Improper Certificate Validation in urllib3\nImproper Certificate Validation in urllib3 High\n#3 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "Improper Certificate Validation in urllib3",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/3"
+  },
+  {
+    "text": "Select alert: Deserialization of Untrusted Data in Flask-Caching\nDeserialization of Untrusted Data in Flask-Caching Moderate\n#10 opened  • Detected in Flask-Caching (pip) • requirements.txt",
+    "title": "Deserialization of Untrusted Data in Flask-Caching",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/10"
+  },
+  {
+    "text": "Select alert: Infinite Loop in Pygments\nInfinite Loop in Pygments High\n#8 opened  • Detected in Pygments (pip) • requirements.txt",
+    "title": "Infinite Loop in Pygments",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/8"
+  },
+  {
+    "text": "Select alert: Jinja2 sandbox escape via string formatting\nJinja2 sandbox escape via string formatting High\n#2 opened  • Detected in Jinja2 (pip) • requirements.txt",
+    "title": "Jinja2 sandbox escape via string formatting",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/2"
+  },
+  {
+    "text": "Select alert: Pallets Werkzeug Insufficient Entropy\nPallets Werkzeug Insufficient Entropy High\n#4 opened  • Detected in werkzeug (pip) • requirements.txt\n#2",
+    "title": "Pallets Werkzeug Insufficient Entropy",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/4"
+  },
+  {
+    "text": "Select alert: Werkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain\nWerkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain High\n#49 opened  • Detected in Werkzeug (pip) • requirements.txt",
+    "title": "Werkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/49"
+  },
+  {
+    "text": "Select alert: Regular Expression Denial of Service (ReDoS) in Jinja2\nRegular Expression Denial of Service (ReDoS) in Jinja2 Moderate\n#5 opened  • Detected in jinja2 (pip) • requirements.txt\n#4",
+    "title": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/5"
+  },
+  {
+    "text": "Select alert: Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header\nFlask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header High\n#27 opened  • Detected in flask (pip) • requirements.txt",
+    "title": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/27"
+  },
+  {
+    "text": "Select alert: Execution with Unnecessary Privileges in JupyterApp\nExecution with Unnecessary Privileges in JupyterApp High\n#18 opened  • Detected in jupyter-core (pip) • requirements.txt",
+    "title": "Execution with Unnecessary Privileges in JupyterApp",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/18"
+  },
+  {
+    "text": "Select alert: urllib3 streaming API improperly handles highly compressed data\nurllib3 streaming API improperly handles highly compressed data High\n#65 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "urllib3 streaming API improperly handles highly compressed data",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/65"
+  },
+  {
+    "text": "Select alert: CRLF injection in urllib3\nCRLF injection in urllib3 Moderate\n#11 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "CRLF injection in urllib3",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/11"
+  },
+  {
+    "text": "Select alert: Execution with Unnecessary Privileges in ipython\nExecution with Unnecessary Privileges in ipython High\n#12 opened  • Detected in ipython (pip) • requirements.txt\n#8",
+    "title": "Execution with Unnecessary Privileges in ipython",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/12"
+  },
+  {
+    "text": "Select alert: Tornado is vulnerable to DoS due to too many multipart parts\nTornado is vulnerable to DoS due to too many multipart parts High\n#71 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado is vulnerable to DoS due to too many multipart parts",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/71"
+  },
+  {
+    "text": "Select alert: High resource usage when parsing multipart form data with many fields\nHigh resource usage when parsing multipart form data with many fields High\n#24 opened  • Detected in Werkzeug (pip) • requirements.txt",
+    "title": "High resource usage when parsing multipart form data with many fields",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/24"
+  },
+  {
+    "text": "Select alert: NumPy NULL Pointer Dereference\nNumPy NULL Pointer Dereference High\n#14 opened  • Detected in numpy (pip) • requirements.txt",
+    "title": "NumPy NULL Pointer Dereference",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/14"
+  },
+  {
+    "text": "Select alert: `Cookie` HTTP header isn't stripped on cross-origin redirects\n`Cookie` HTTP header isn't stripped on cross-origin redirects High\n#41 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/41"
+  },
+  {
+    "text": "Select alert: Tornado has an HTTP cookie parsing DoS vulnerability\nTornado has an HTTP cookie parsing DoS vulnerability High\n#56 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado has an HTTP cookie parsing DoS vulnerability",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/56"
+  },
+  {
+    "text": "Select alert: Tornado vulnerable to excessive logging caused by malformed multipart form data\nTornado vulnerable to excessive logging caused by malformed multipart form data High\n#61 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado vulnerable to excessive logging caused by malformed multipart form data",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/61"
+  },
+  {
+    "text": "Select alert: tornado AsyncHTTPClient accumulates decompressed chunks without size limit (gzip bomb)\ntornado AsyncHTTPClient accumulates decompressed chunks without size limit (gzip bomb) High\n#77 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "tornado AsyncHTTPClient accumulates decompressed chunks without size limit (gzip bomb)",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/77"
+  },
+  {
+    "text": "Select alert: Tornado: Authorization header forwarded across cross-origin redirects in SimpleAsyncHTTPClient\nTornado: Authorization header forwarded across cross-origin redirects in SimpleAsyncHTTPClient High\n#78 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado: Authorization header forwarded across cross-origin redirects in SimpleAsyncHTTPClient",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/78"
+  },
+  {
+    "text": "Select alert: Removal of e-Tugra root certificate\nRemoval of e-Tugra root certificate High\n#39 opened  • Detected in certifi (pip) • requirements.txt",
+    "title": "Removal of e-Tugra root certificate",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/39"
+  },
+  {
+    "text": "Select alert: Tornado: Quadratic DoS via Repeated Header Coalescing\nTornado: Quadratic DoS via Repeated Header Coalescing High\n#82 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado: Quadratic DoS via Repeated Header Coalescing",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/82"
+  },
+  {
+    "text": "Select alert: Tornado: Quadratic DoS via Crafted Multipart Parameters\nTornado: Quadratic DoS via Crafted Multipart Parameters High\n#83 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado: Quadratic DoS via Crafted Multipart Parameters",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/83"
+  },
+  {
+    "text": "Select alert: Tornado has cookie attribute injection via .RequestHandler.set_cookie\nTornado has cookie attribute injection via .RequestHandler.set_cookie High\n#74 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado has cookie attribute injection via .RequestHandler.set_cookie",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/74"
+  },
+  {
+    "text": "Select alert: Improper Neutralization of CRLF Sequences in urllib3 library for Python\nImproper Neutralization of CRLF Sequences in urllib3 library for Python Moderate\n#35 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "Improper Neutralization of CRLF Sequences in urllib3 library for Python",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/35"
+  },
+  {
+    "text": "Select alert: Pygments vulnerable to ReDoS\nPygments vulnerable to ReDoS Moderate\n#36 opened  • Detected in Pygments (pip) • requirements.txt",
+    "title": "Pygments vulnerable to ReDoS",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/36"
+  },
+  {
+    "text": "Select alert: NumPy Buffer Overflow (Disputed)\nNumPy Buffer Overflow (Disputed) Moderate\n#34 opened  • Detected in numpy (pip) • requirements.txt",
+    "title": "NumPy Buffer Overflow (Disputed)",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/34"
+  },
+  {
+    "text": "Select alert: Werkzeug safe_join not safe on Windows\nWerkzeug safe_join not safe on Windows Moderate\n#54 opened  • Detected in Werkzeug (pip) • requirements.txt",
+    "title": "Werkzeug safe_join not safe on Windows",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/54"
+  },
+  {
+    "text": "Select alert: pytest has vulnerable tmpdir handling\npytest has vulnerable tmpdir handling Moderate\n#75 opened  • Detected in pytest (pip) • requirements.txt",
+    "title": "pytest has vulnerable tmpdir handling",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/75"
+  },
+  {
+    "text": "Select alert: Incorrect Comparison in NumPy\nIncorrect Comparison in NumPy Moderate\n#16 opened  • Detected in numpy (pip) • requirements.txt",
+    "title": "Incorrect Comparison in NumPy",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/16"
+  },
+  {
+    "text": "Select alert: Werkzeug safe_join() allows Windows special device names\nWerkzeug safe_join() allows Windows special device names Moderate\n#68 opened  • Detected in werkzeug (pip) • requirements.txt",
+    "title": "Werkzeug safe_join() allows Windows special device names",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/68"
+  },
+  {
+    "text": "Select alert: Werkzeug safe_join() allows Windows special device names\nWerkzeug safe_join() allows Windows special device names Moderate\n#64 opened  • Detected in werkzeug (pip) • requirements.txt",
+    "title": "Werkzeug safe_join() allows Windows special device names",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/64"
+  },
+  {
+    "text": "Select alert: Werkzeug safe_join() allows Windows special device names with compound extensions\nWerkzeug safe_join() allows Windows special device names with compound extensions Moderate\n#67 opened  • Detected in Werkzeug (pip) • requirements.txt",
+    "title": "Werkzeug safe_join() allows Windows special device names with compound extensions",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/67"
+  },
+  {
+    "text": "Select alert: Tornado has a CRLF injection in CurlAsyncHTTPClient headers\nTornado has a CRLF injection in CurlAsyncHTTPClient headers Moderate\n#51 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado has a CRLF injection in CurlAsyncHTTPClient headers",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/51"
+  },
+  {
+    "text": "Select alert: Open redirect in Tornado\nOpen redirect in Tornado Moderate\n#28 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Open redirect in Tornado",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/28"
+  },
+  {
+    "text": "Select alert: Certifi removing TrustCor root certificate\nCertifi removing TrustCor root certificate Moderate\n#20 opened  • Detected in certifi (pip) • requirements.txt",
+    "title": "Certifi removing TrustCor root certificate",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/20"
+  },
+  {
+    "text": "Select alert: Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter\nJinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter Moderate\n#48 opened  • Detected in Jinja2 (pip) • requirements.txt",
+    "title": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/48"
+  },
+  {
+    "text": "Select alert: Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter\nJinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter Moderate\n#47 opened  • Detected in jinja2 (pip) • requirements.txt",
+    "title": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/47"
+  },
+  {
+    "text": "Select alert: urllib3's request body not stripped after redirect from 303 status changes request method to GET\nurllib3's request body not stripped after redirect from 303 status changes request method to GET Moderate\n#45 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/45"
+  },
+  {
+    "text": "Select alert: Jinja has a sandbox breakout through indirect reference to format method\nJinja has a sandbox breakout through indirect reference to format method Moderate\n#58 opened  • Detected in jinja2 (pip) • requirements.txt",
+    "title": "Jinja has a sandbox breakout through indirect reference to format method",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/58"
+  },
+  {
+    "text": "Select alert: Tornado: CurlAsyncHTTPClient leaks per-request credentials on handle reuse\nTornado: CurlAsyncHTTPClient leaks per-request credentials on handle reuse Moderate\n#79 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado: CurlAsyncHTTPClient leaks per-request credentials on handle reuse",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/79"
+  },
+  {
+    "text": "Select alert: Jinja2 vulnerable to sandbox breakout through attr filter selecting format method\nJinja2 vulnerable to sandbox breakout through attr filter selecting format method Moderate\n#59 opened  • Detected in Jinja2 (pip) • requirements.txt",
+    "title": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/59"
+  },
+  {
+    "text": "Select alert: Buffer Copy without Checking Size of Input in NumPy\nBuffer Copy without Checking Size of Input in NumPy Moderate\n#13 opened  • Detected in numpy (pip) • requirements.txt",
+    "title": "Buffer Copy without Checking Size of Input in NumPy",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/13"
+  },
+  {
+    "text": "Select alert: Authorization Header forwarded on redirect\nAuthorization Header forwarded on redirect Moderate\n#42 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "Authorization Header forwarded on redirect",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/42"
+  },
+  {
+    "text": "Select alert: urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation\nurllib3 redirects are not disabled when retries are disabled on PoolManager instantiation Moderate\n#63 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/63"
+  },
+  {
+    "text": "Select alert: Tornado vulnerable to Header Injection and XSS via reason argument\nTornado vulnerable to Header Injection and XSS via reason argument Moderate\n#81 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado vulnerable to Header Injection and XSS via reason argument",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/81"
+  },
+  {
+    "text": "Select alert: urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects\nurllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects Moderate\n#52 opened  • Detected in urllib3 (pip) • requirements.txt",
+    "title": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/52"
+  },
+  {
+    "text": "Select alert: Tornado has incomplete validation of cookie attributes\nTornado has incomplete validation of cookie attributes Moderate\n#70 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado has incomplete validation of cookie attributes",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/70"
+  },
+  {
+    "text": "Select alert: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado\nInconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado Moderate\n#50 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/50"
+  },
+  {
+    "text": "Select alert: Tornado has out-of-bounds memory access via C extension\nTornado has out-of-bounds memory access via C extension Low\n#76 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado has out-of-bounds memory access via C extension",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/76"
+  },
+  {
+    "text": "Select alert: Tornado vulnerable to HTTP request smuggling via improper parsing of `Content-Length` fields and chunk lengths\nTornado vulnerable to HTTP request smuggling via improper parsing of `Content-Length` fields and chunk lengths Moderate\n#38 opened  • Detected in tornado (pip) • requirements.txt",
+    "title": "Tornado vulnerable to HTTP request smuggling via improper parsing of `Content-Length` fields and chunk lengths",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/38"
+  },
+  {
+    "text": "Select alert: IPython vulnerable to command injection via set_term_title\nIPython vulnerable to command injection via set_term_title Low\n#53 opened  • Detected in ipython (pip) • requirements.txt",
+    "title": "IPython vulnerable to command injection via set_term_title",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/53"
+  },
+  {
+    "text": "Select alert: Incorrect parsing of nameless cookies leads to __Host- cookies bypass\nIncorrect parsing of nameless cookies leads to __Host- cookies bypass Low\n#23 opened  • Detected in Werkzeug (pip) • requirements.txt",
+    "title": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/23"
+  },
+  {
+    "text": "Select alert: Flask session does not add `Vary: Cookie` header when accessed in some ways\nFlask session does not add `Vary: Cookie` header when accessed in some ways Low\n#69 opened  • Detected in flask (pip) • requirements.txt",
+    "title": "Flask session does not add `Vary: Cookie` header when accessed in some ways",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/69"
+  },
+  {
+    "text": "Select alert: Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching\nPygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching Low\n#73 opened  • Detected in Pygments (pip) • requirements.txt",
+    "title": "Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching",
+    "url": "https://github.com/BrambleXu/KGQA_SG/security/dependabot/73"
+  }
+]

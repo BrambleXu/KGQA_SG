@@ -78,8 +78,7 @@ target/
 profile_default/
 ipython_config.py
 
-# pyenv
-.python-version
+# Python is pinned in .python-version; keep it under version control.
 
 # celery beat schedule file
 celerybeat-schedule
@@ -90,6 +89,8 @@ celerybeat-schedule
 # Environments
 .env
 .venv
+.ruff_cache/
+node_modules/
 env/
 venv/
 ENV/

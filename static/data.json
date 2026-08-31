@@ -1,1 +1,1346 @@
-{"data": [{"name": "大乔", "category": 2}, {"name": "袁术", "category": 3}, {"name": "蒯越", "category": 0}, {"name": "公孙瓒", "category": 3}, {"name": "吕布", "category": 3}, {"name": "乐进", "category": 0}, {"name": "文聘", "category": 0}, {"name": "诸葛瑾", "category": 1}, {"name": "法正", "category": 1}, {"name": "张宝", "category": 3}, {"name": "荀攸", "category": 0}, {"name": "孙权", "category": 2}, {"name": "张昭", "category": 2}, {"name": "孙尚香", "category": 2}, {"name": "蒋琬", "category": 1}, {"name": "黄忠", "category": 1}, {"name": "袁谭", "category": 3}, {"name": "曹爽", "category": 0}, {"name": "刘备", "category": 1}, {"name": "甘宁", "category": 2}, {"name": "姜维", "category": 1}, {"name": "高顺", "category": 3}, {"name": "周瑜", "category": 2}, {"name": "孙策", "category": 2}, {"name": "贾诩", "category": 0}, {"name": "太史慈", "category": 2}, {"name": "丁原", "category": 3}, {"name": "曹丕", "category": 0}, {"name": "关平", "category": 1}, {"name": "诸葛亮", "category": 1}, {"name": "刘启", "category": 3}, {"name": "貂蝉", "category": 3}, {"name": "刘表", "category": 3}, {"name": "袁熙", "category": 3}, {"name": "黄承彦", "category": 1}, {"name": "鲁肃", "category": 2}, {"name": "陆逊", "category": 2}, {"name": "魏延", "category": 1}, {"name": "马超", "category": 1}, {"name": "陈宫", "category": 3}, {"name": "夏侯淳", "category": 0}, {"name": "司马炎", "category": 0}, {"name": "张绣", "category": 3}, {"name": "沙摩柯", "category": 1}, {"name": "徐庶", "category": 1}, {"name": "庞德公", "category": 3}, {"name": "孟获", "category": 3}, {"name": "马良", "category": 1}, {"name": "徐盛", "category": 2}, {"name": "王允", "category": 3}, {"name": "丁奉", "category": 2}, {"name": "司马昭", "category": 0}, {"name": "吕蒙", "category": 2}, {"name": "曹昂", "category": 0}, {"name": "张辽", "category": 0}, {"name": "凌统", "category": 2}, {"name": "糜氏", "category": 1}, {"name": "张角", "category": 3}, {"name": "孙韶", "category": 2}, {"name": "曹仁", "category": 0}, {"name": "小乔", "category": 2}, {"name": "卢植", "category": 3}, {"name": "黄盖", "category": 2}, {"name": "黄祖", "category": 3}, {"name": "邹氏", "category": 0}, {"name": "孙氏", "category": 2}, {"name": "夏侯渊", "category": 0}, {"name": "刘氏", "category": 0}, {"name": "韩遂", "category": 3}, {"name": "公孙越", "category": 3}, {"name": "刘辩", "category": 3}, {"name": "周泰", "category": 2}, {"name": "曹植", "category": 0}, {"name": "荀彧", "category": 0}, {"name": "诸葛瞻", "category": 1}, {"name": "庞统", "category": 1}, {"name": "钟会", "category": 0l}, {"name": "甘氏", "category": 1}, {"name": "赵云", "category": 1}, {"name": "糜芳", "category": 1}, {"name": "徐晃", "category": 0}, {"name": "典韦", "category": 0}, {"name": "张飞", "category": 1}, {"name": "刘胜", "category": 3}, {"name": "孙坚", "category": 2}, {"name": "黄月英", "category": 1}, {"name": "祝融", "category": 1}, {"name": "张苞", "category": 1}, {"name": "司马师", "category": 0}, {"name": "张郃", "category": 0}, {"name": "蒋钦", "category": 2}, {"name": "刘禅", "category": 1}, {"name": "曹嵩", "category": 0}, {"name": "庞德", "category": 0}, {"name": "曹纯", "category": 0}, {"name": "袁尚", "category": 3}, {"name": "糜竺", "category": 1}, {"name": "曹真", "category": 0}, {"name": "司马懿", "category": 0}, {"name": "于禁", "category": 0}, {"name": "刘协", "category": 3}, {"name": "程普", "category": 2}, {"name": "许褚", "category": 0}, {"name": "清河公主", "category": 0}, {"name": "吴国太", "category": 2}, {"name": "马腾", "category": 3}, {"name": "马谡", "category": 1}, {"name": "曹操", "category": 0}, {"name": "张梁", "category": 3}, {"name": "蔡瑁", "category": 0}, {"name": "夏侯楙", "category": 0}, {"name": "郭嘉", "category": 0}, {"name": "卞氏", "category": 3}, {"name": "关羽", "category": 1}, {"name": "董卓", "category": 3}, {"name": "韩当", "category": 2}, {"name": "蔡氏", "category": 3}, {"name": "程昱", "category": 0}, {"name": "邓艾", "category": 0}, {"name": "袁绍", "category": 3}, {"name": "吕伯奢", "category": 3}, {"name": "关兴", "category": 1}], "links": [{"source": 0, "target": 36, "value": "岳母"}, {"source": 11, "target": 36, "value": "主公"}, {"source": 65, "target": 36, "value": "妻"}, {"source": 4, "target": 21, "value": "主公"}, {"source": 107, "target": 2, "value": "主公"}, {"source": 9, "target": 57, "value": "弟弟"}, {"source": 23, "target": 84, "value": "儿子"}, {"source": 104, "target": 84, "value": "妻"}, {"source": 22, "target": 60, "value": "夫"}, {"source": 11, "target": 48, "value": "主公"}, {"source": 11, "target": 25, "value": "主公"}, {"source": 11, "target": 19, "value": "主公"}, {"source": 110, "target": 103, "value": "夫"}, {"source": 107, "target": 40, "value": "主公"}, {"source": 107, "target": 40, "value": "同族"}, {"source": 66, "target": 40, "value": "堂弟"}, {"source": 17, "target": 97, "value": "儿子"}, {"source": 107, "target": 97, "value": "义父"}, {"source": 74, "target": 91, "value": "女婿"}, {"source": 74, "target": 91, "value": "女婿"}, {"source": 105, "target": 38, "value": "父亲"}, {"source": 105, "target": 38, "value": "父亲"}, {"source": 18, "target": 38, "value": "主公"}, {"source": 107, "target": 5, "value": "主公"}, {"source": 107, "target": 81, "value": "主公"}, {"source": 11, "target": 50, "value": "主公"}, {"source": 11, "target": 90, "value": "主公"}, {"source": 11, "target": 52, "value": "主公"}, {"source": 11, "target": 115, "value": "主公"}, {"source": 107, "target": 66, "value": "主公"}, {"source": 107, "target": 66, "value": "同族"}, {"source": 107, "target": 80, "value": "主公"}, {"source": 107, "target": 102, "value": "主公"}, {"source": 107, "target": 24, "value": "主公"}, {"source": 107, "target": 118, "value": "主公"}, {"source": 41, "target": 51, "value": "儿子"}, {"source": 106, "target": 18, "value": "臣"}, {"source": 56, "target": 18, "value": "妾"}, {"source": 13, "target": 18, "value": "妾"}, {"source": 77, "target": 18, "value": "妻"}, {"source": 77, "target": 18, "value": "妻"}, {"source": 3, "target": 18, "value": "朋友"}, {"source": 61, "target": 18, "value": "师傅"}, {"source": 82, "target": 18, "value": "义弟"}, {"source": 113, "target": 18, "value": "义弟"}, {"source": 120, "target": 92, "value": "结拜"}, {"source": 66, "target": 110, "value": "父亲"}, {"source": 107, "target": 111, "value": "主公"}, {"source": 107, "target": 73, "value": "主公"}, {"source": 73, "target": 10, "value": "叔叔"}, {"source": 107, "target": 10, "value": "主公"}, {"source": 51, "target": 98, "value": "儿子"}, {"source": 88, "target": 98, "value": "儿子"}, {"source": 107, "target": 98, "value": "主公"}, {"source": 107, "target": 117, "value": "主公"}, {"source": 87, "target": 82, "value": "儿子"}, {"source": 113, "target": 82, "value": "义兄"}, {"source": 91, "target": 77, "value": "儿子"}, {"source": 91, "target": 77, "value": "儿子"}, {"source": 11, "target": 7, "value": "主公"}, {"source": 112, "target": 107, "value": "妻子"}, {"source": 67, "target": 107, "value": "妻子"}, {"source": 53, "target": 107, "value": "儿子"}, {"source": 59, "target": 107, "value": "同族"}, {"source": 103, "target": 107, "value": "女儿"}, {"source": 64, "target": 107, "value": "妾"}, {"source": 92, "target": 107, "value": "父亲"}, {"source": 70, "target": 30, "value": "同族"}, {"source": 83, "target": 30, "value": "儿子"}, {"source": 18, "target": 96, "value": "主公"}, {"source": 18, "target": 15, "value": "主公"}, {"source": 51, "target": 88, "value": "弟弟"}, {"source": 27, "target": 112, "value": "儿子"}, {"source": 28, "target": 87, "value": "结拜"}, {"source": 106, "target": 29, "value": "同事"}, {"source": 18, "target": 29, "value": "主公"}, {"source": 20, "target": 29, "value": "徒弟"}, {"source": 74, "target": 29, "value": "儿子"}, {"source": 7, "target": 29, "value": "哥哥"}, {"source": 85, "target": 29, "value": "妻"}, {"source": 18, "target": 29, "value": "主公"}, {"source": 74, "target": 29, "value": "儿子"}, {"source": 34, "target": 85, "value": "父亲"}, {"source": 107, "target": 44, "value": "主公"}, {"source": 18, "target": 44, "value": "主公"}, {"source": 100, "target": 70, "value": "让位"}, {"source": 45, "target": 75, "value": "叔叔"}, {"source": 18, "target": 75, "value": "主公"}, {"source": 86, "target": 46, "value": "妻"}, {"source": 18, "target": 46, "value": "主公"}, {"source": 31, "target": 49, "value": "义女"}, {"source": 114, "target": 4, "value": "义父"}, {"source": 26, "target": 4, "value": "义父"}, {"source": 31, "target": 4, "value": "妾"}, {"source": 109, "target": 116, "value": "弟弟"}, {"source": 32, "target": 6, "value": "主公"}, {"source": 95, "target": 33, "value": "弟弟"}, {"source": 11, "target": 22, "value": "主公"}, {"source": 11, "target": 35, "value": "主公"}, {"source": 11, "target": 71, "value": "主公"}, {"source": 11, "target": 62, "value": "主公"}, {"source": 104, "target": 11, "value": "母亲"}, {"source": 84, "target": 11, "value": "父亲"}, {"source": 79, "target": 56, "value": "哥哥"}, {"source": 18, "target": 79, "value": "主公"}, {"source": 96, "target": 79, "value": "哥哥"}, {"source": 18, "target": 78, "value": "主公"}, {"source": 18, "target": 14, "value": "主公"}, {"source": 107, "target": 42, "value": "主公"}, {"source": 64, "target": 42, "value": "嫂子"}, {"source": 107, "target": 89, "value": "主公"}, {"source": 53, "target": 67, "value": "儿子"}, {"source": 72, "target": 27, "value": "弟弟"}, {"source": 0, "target": 23, "value": "妾"}, {"source": 11, "target": 23, "value": "弟弟"}, {"source": 65, "target": 23, "value": "女儿"}, {"source": 58, "target": 23, "value": "儿子"}, {"source": 119, "target": 100, "value": "诸侯"}, {"source": 32, "target": 100, "value": "同族"}, {"source": 49, "target": 100, "value": "臣"}, {"source": 114, "target": 100, "value": "臣"}, {"source": 107, "target": 54, "value": "主公"}, {"source": 4, "target": 54, "value": "主公"}, {"source": 107, "target": 109, "value": "主公"}, {"source": 2, "target": 109, "value": "朋友"}, {"source": 16, "target": 119, "value": "儿子"}, {"source": 1, "target": 119, "value": "弟弟"}, {"source": 107, "target": 99, "value": "主公"}, {"source": 107, "target": 76, "value": "主公"}, {"source": 107, "target": 93, "value": "主公"}, {"source": 94, "target": 59, "value": "弟弟"}, {"source": 13, "target": 104, "value": "女儿"}, {"source": 60, "target": 0, "value": "妹妹"}, {"source": 11, "target": 12, "value": "主公"}, {"source": 11, "target": 55, "value": "主公"}, {"source": 11, "target": 101, "value": "主公"}, {"source": 106, "target": 47, "value": "弟弟"}, {"source": 18, "target": 47, "value": "主公"}, {"source": 28, "target": 113, "value": "义子"}, {"source": 121, "target": 113, "value": "儿子"}, {"source": 69, "target": 3, "value": "弟弟"}, {"source": 69, "target": 3, "value": "弟弟"}, {"source": 18, "target": 20, "value": "主公"}, {"source": 29, "target": 20, "value": "师傅"}, {"source": 68, "target": 105, "value": "结拜"}, {"source": 18, "target": 37, "value": "主公"}, {"source": 18, "target": 8, "value": "主公"}, {"source": 4, "target": 39, "value": "主公"}, {"source": 116, "target": 32, "value": "妻"}, {"source": 32, "target": 63, "value": "主公"}, {"source": 108, "target": 9, "value": "弟弟"}, {"source": 33, "target": 16, "value": "弟弟"}, {"source": 18, "target": 43, "value": "主公"}]}
+{
+  "data": [
+    {
+      "id": "丁原",
+      "name": "丁原",
+      "category": 3
+    },
+    {
+      "id": "丁奉",
+      "name": "丁奉",
+      "category": 2
+    },
+    {
+      "id": "乐进",
+      "name": "乐进",
+      "category": 0
+    },
+    {
+      "id": "于禁",
+      "name": "于禁",
+      "category": 0
+    },
+    {
+      "id": "公孙瓒",
+      "name": "公孙瓒",
+      "category": 3
+    },
+    {
+      "id": "公孙越",
+      "name": "公孙越",
+      "category": 3
+    },
+    {
+      "id": "关兴",
+      "name": "关兴",
+      "category": 1
+    },
+    {
+      "id": "关平",
+      "name": "关平",
+      "category": 1
+    },
+    {
+      "id": "关羽",
+      "name": "关羽",
+      "category": 1
+    },
+    {
+      "id": "典韦",
+      "name": "典韦",
+      "category": 0
+    },
+    {
+      "id": "凌统",
+      "name": "凌统",
+      "category": 2
+    },
+    {
+      "id": "刘协",
+      "name": "刘协",
+      "category": 3
+    },
+    {
+      "id": "刘启",
+      "name": "刘启",
+      "category": 3
+    },
+    {
+      "id": "刘备",
+      "name": "刘备",
+      "category": 1
+    },
+    {
+      "id": "刘氏",
+      "name": "刘氏",
+      "category": 0
+    },
+    {
+      "id": "刘禅",
+      "name": "刘禅",
+      "category": 1
+    },
+    {
+      "id": "刘胜",
+      "name": "刘胜",
+      "category": 3
+    },
+    {
+      "id": "刘表",
+      "name": "刘表",
+      "category": 3
+    },
+    {
+      "id": "刘辩",
+      "name": "刘辩",
+      "category": 3
+    },
+    {
+      "id": "卞氏",
+      "name": "卞氏",
+      "category": 3
+    },
+    {
+      "id": "卢植",
+      "name": "卢植",
+      "category": 3
+    },
+    {
+      "id": "司马师",
+      "name": "司马师",
+      "category": 0
+    },
+    {
+      "id": "司马懿",
+      "name": "司马懿",
+      "category": 0
+    },
+    {
+      "id": "司马昭",
+      "name": "司马昭",
+      "category": 0
+    },
+    {
+      "id": "司马炎",
+      "name": "司马炎",
+      "category": 0
+    },
+    {
+      "id": "吕伯奢",
+      "name": "吕伯奢",
+      "category": 3
+    },
+    {
+      "id": "吕布",
+      "name": "吕布",
+      "category": 3
+    },
+    {
+      "id": "吕蒙",
+      "name": "吕蒙",
+      "category": 2
+    },
+    {
+      "id": "吴国太",
+      "name": "吴国太",
+      "category": 2
+    },
+    {
+      "id": "周泰",
+      "name": "周泰",
+      "category": 2
+    },
+    {
+      "id": "周瑜",
+      "name": "周瑜",
+      "category": 2
+    },
+    {
+      "id": "夏侯惇",
+      "name": "夏侯惇",
+      "category": 0
+    },
+    {
+      "id": "夏侯楙",
+      "name": "夏侯楙",
+      "category": 0
+    },
+    {
+      "id": "夏侯渊",
+      "name": "夏侯渊",
+      "category": 0
+    },
+    {
+      "id": "大乔",
+      "name": "大乔",
+      "category": 2
+    },
+    {
+      "id": "太史慈",
+      "name": "太史慈",
+      "category": 2
+    },
+    {
+      "id": "姜维",
+      "name": "姜维",
+      "category": 1
+    },
+    {
+      "id": "孙坚",
+      "name": "孙坚",
+      "category": 2
+    },
+    {
+      "id": "孙尚香",
+      "name": "孙尚香",
+      "category": 2
+    },
+    {
+      "id": "孙权",
+      "name": "孙权",
+      "category": 2
+    },
+    {
+      "id": "孙氏",
+      "name": "孙氏",
+      "category": 2
+    },
+    {
+      "id": "孙策",
+      "name": "孙策",
+      "category": 2
+    },
+    {
+      "id": "孙韶",
+      "name": "孙韶",
+      "category": 2
+    },
+    {
+      "id": "孟获",
+      "name": "孟获",
+      "category": 3
+    },
+    {
+      "id": "小乔",
+      "name": "小乔",
+      "category": 2
+    },
+    {
+      "id": "庞德",
+      "name": "庞德",
+      "category": 0
+    },
+    {
+      "id": "庞德公",
+      "name": "庞德公",
+      "category": 3
+    },
+    {
+      "id": "庞统",
+      "name": "庞统",
+      "category": 1
+    },
+    {
+      "id": "张宝",
+      "name": "张宝",
+      "category": 3
+    },
+    {
+      "id": "张昭",
+      "name": "张昭",
+      "category": 2
+    },
+    {
+      "id": "张梁",
+      "name": "张梁",
+      "category": 3
+    },
+    {
+      "id": "张绣",
+      "name": "张绣",
+      "category": 3
+    },
+    {
+      "id": "张苞",
+      "name": "张苞",
+      "category": 1
+    },
+    {
+      "id": "张角",
+      "name": "张角",
+      "category": 3
+    },
+    {
+      "id": "张辽",
+      "name": "张辽",
+      "category": 0
+    },
+    {
+      "id": "张郃",
+      "name": "张郃",
+      "category": 0
+    },
+    {
+      "id": "张飞",
+      "name": "张飞",
+      "category": 1
+    },
+    {
+      "id": "徐庶",
+      "name": "徐庶",
+      "category": 1
+    },
+    {
+      "id": "徐晃",
+      "name": "徐晃",
+      "category": 0
+    },
+    {
+      "id": "徐盛",
+      "name": "徐盛",
+      "category": 2
+    },
+    {
+      "id": "文聘",
+      "name": "文聘",
+      "category": 0
+    },
+    {
+      "id": "曹丕",
+      "name": "曹丕",
+      "category": 2
+    },
+    {
+      "id": "曹仁",
+      "name": "曹仁",
+      "category": 0
+    },
+    {
+      "id": "曹嵩",
+      "name": "曹嵩",
+      "category": 0
+    },
+    {
+      "id": "曹操",
+      "name": "曹操",
+      "category": 0
+    },
+    {
+      "id": "曹昂",
+      "name": "曹昂",
+      "category": 0
+    },
+    {
+      "id": "曹植",
+      "name": "曹植",
+      "category": 0
+    },
+    {
+      "id": "曹爽",
+      "name": "曹爽",
+      "category": 0
+    },
+    {
+      "id": "曹真",
+      "name": "曹真",
+      "category": 0
+    },
+    {
+      "id": "曹纯",
+      "name": "曹纯",
+      "category": 0
+    },
+    {
+      "id": "沙摩柯",
+      "name": "沙摩柯",
+      "category": 1
+    },
+    {
+      "id": "法正",
+      "name": "法正",
+      "category": 1
+    },
+    {
+      "id": "清河公主",
+      "name": "清河公主",
+      "category": 0
+    },
+    {
+      "id": "王允",
+      "name": "王允",
+      "category": 3
+    },
+    {
+      "id": "甘宁",
+      "name": "甘宁",
+      "category": 2
+    },
+    {
+      "id": "甘氏",
+      "name": "甘氏",
+      "category": 1
+    },
+    {
+      "id": "祝融",
+      "name": "祝融",
+      "category": 1
+    },
+    {
+      "id": "程昱",
+      "name": "程昱",
+      "category": 0
+    },
+    {
+      "id": "程普",
+      "name": "程普",
+      "category": 2
+    },
+    {
+      "id": "糜氏",
+      "name": "糜氏",
+      "category": 1
+    },
+    {
+      "id": "糜竺",
+      "name": "糜竺",
+      "category": 1
+    },
+    {
+      "id": "糜芳",
+      "name": "糜芳",
+      "category": 1
+    },
+    {
+      "id": "荀彧",
+      "name": "荀彧",
+      "category": 0
+    },
+    {
+      "id": "荀攸",
+      "name": "荀攸",
+      "category": 0
+    },
+    {
+      "id": "董卓",
+      "name": "董卓",
+      "category": 3
+    },
+    {
+      "id": "蒋琬",
+      "name": "蒋琬",
+      "category": 1
+    },
+    {
+      "id": "蒋钦",
+      "name": "蒋钦",
+      "category": 2
+    },
+    {
+      "id": "蒯越",
+      "name": "蒯越",
+      "category": 0
+    },
+    {
+      "id": "蔡氏",
+      "name": "蔡氏",
+      "category": 3
+    },
+    {
+      "id": "蔡瑁",
+      "name": "蔡瑁",
+      "category": 0
+    },
+    {
+      "id": "袁尚",
+      "name": "袁尚",
+      "category": 3
+    },
+    {
+      "id": "袁术",
+      "name": "袁术",
+      "category": 3
+    },
+    {
+      "id": "袁熙",
+      "name": "袁熙",
+      "category": 3
+    },
+    {
+      "id": "袁绍",
+      "name": "袁绍",
+      "category": 3
+    },
+    {
+      "id": "袁谭",
+      "name": "袁谭",
+      "category": 3
+    },
+    {
+      "id": "许褚",
+      "name": "许褚",
+      "category": 0
+    },
+    {
+      "id": "诸葛亮",
+      "name": "诸葛亮",
+      "category": 1
+    },
+    {
+      "id": "诸葛瑾",
+      "name": "诸葛瑾",
+      "category": 1
+    },
+    {
+      "id": "诸葛瞻",
+      "name": "诸葛瞻",
+      "category": 1
+    },
+    {
+      "id": "貂蝉",
+      "name": "貂蝉",
+      "category": 3
+    },
+    {
+      "id": "贾诩",
+      "name": "贾诩",
+      "category": 0
+    },
+    {
+      "id": "赵云",
+      "name": "赵云",
+      "category": 1
+    },
+    {
+      "id": "邓艾",
+      "name": "邓艾",
+      "category": 0
+    },
+    {
+      "id": "邹氏",
+      "name": "邹氏",
+      "category": 0
+    },
+    {
+      "id": "郭嘉",
+      "name": "郭嘉",
+      "category": 0
+    },
+    {
+      "id": "钟会",
+      "name": "钟会",
+      "category": 0
+    },
+    {
+      "id": "陆逊",
+      "name": "陆逊",
+      "category": 2
+    },
+    {
+      "id": "陈宫",
+      "name": "陈宫",
+      "category": 3
+    },
+    {
+      "id": "韩当",
+      "name": "韩当",
+      "category": 2
+    },
+    {
+      "id": "韩遂",
+      "name": "韩遂",
+      "category": 3
+    },
+    {
+      "id": "马腾",
+      "name": "马腾",
+      "category": 3
+    },
+    {
+      "id": "马良",
+      "name": "马良",
+      "category": 1
+    },
+    {
+      "id": "马谡",
+      "name": "马谡",
+      "category": 1
+    },
+    {
+      "id": "马超",
+      "name": "马超",
+      "category": 1
+    },
+    {
+      "id": "高顺",
+      "name": "高顺",
+      "category": 3
+    },
+    {
+      "id": "魏延",
+      "name": "魏延",
+      "category": 1
+    },
+    {
+      "id": "鲁肃",
+      "name": "鲁肃",
+      "category": 2
+    },
+    {
+      "id": "黄忠",
+      "name": "黄忠",
+      "category": 1
+    },
+    {
+      "id": "黄承彦",
+      "name": "黄承彦",
+      "category": 1
+    },
+    {
+      "id": "黄月英",
+      "name": "黄月英",
+      "category": 1
+    },
+    {
+      "id": "黄盖",
+      "name": "黄盖",
+      "category": 2
+    },
+    {
+      "id": "黄祖",
+      "name": "黄祖",
+      "category": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "丁原",
+      "target": "吕布",
+      "value": "义父"
+    },
+    {
+      "source": "公孙瓒",
+      "target": "刘备",
+      "value": "朋友"
+    },
+    {
+      "source": "公孙越",
+      "target": "公孙瓒",
+      "value": "弟弟"
+    },
+    {
+      "source": "关兴",
+      "target": "关羽",
+      "value": "儿子"
+    },
+    {
+      "source": "关平",
+      "target": "关羽",
+      "value": "义子"
+    },
+    {
+      "source": "关平",
+      "target": "张苞",
+      "value": "结拜"
+    },
+    {
+      "source": "关羽",
+      "target": "刘备",
+      "value": "义弟"
+    },
+    {
+      "source": "关羽",
+      "target": "张飞",
+      "value": "义兄"
+    },
+    {
+      "source": "刘协",
+      "target": "刘辩",
+      "value": "让位"
+    },
+    {
+      "source": "刘备",
+      "target": "姜维",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "孟获",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "庞统",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "徐庶",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "沙摩柯",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "法正",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "糜竺",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "糜芳",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "蒋琬",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "诸葛亮",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "赵云",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "马良",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "马超",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "魏延",
+      "value": "主公"
+    },
+    {
+      "source": "刘备",
+      "target": "黄忠",
+      "value": "主公"
+    },
+    {
+      "source": "刘氏",
+      "target": "曹操",
+      "value": "妻子"
+    },
+    {
+      "source": "刘禅",
+      "target": "甘氏",
+      "value": "儿子"
+    },
+    {
+      "source": "刘胜",
+      "target": "刘启",
+      "value": "儿子"
+    },
+    {
+      "source": "刘表",
+      "target": "刘协",
+      "value": "同族"
+    },
+    {
+      "source": "刘表",
+      "target": "文聘",
+      "value": "主公"
+    },
+    {
+      "source": "刘表",
+      "target": "黄祖",
+      "value": "主公"
+    },
+    {
+      "source": "刘辩",
+      "target": "刘启",
+      "value": "同族"
+    },
+    {
+      "source": "卞氏",
+      "target": "曹操",
+      "value": "妻子"
+    },
+    {
+      "source": "卢植",
+      "target": "刘备",
+      "value": "师傅"
+    },
+    {
+      "source": "司马师",
+      "target": "司马懿",
+      "value": "儿子"
+    },
+    {
+      "source": "司马昭",
+      "target": "司马师",
+      "value": "弟弟"
+    },
+    {
+      "source": "司马昭",
+      "target": "司马懿",
+      "value": "儿子"
+    },
+    {
+      "source": "司马炎",
+      "target": "司马昭",
+      "value": "儿子"
+    },
+    {
+      "source": "吕伯奢",
+      "target": "曹嵩",
+      "value": "结拜"
+    },
+    {
+      "source": "吕布",
+      "target": "张辽",
+      "value": "主公"
+    },
+    {
+      "source": "吕布",
+      "target": "陈宫",
+      "value": "主公"
+    },
+    {
+      "source": "吕布",
+      "target": "高顺",
+      "value": "主公"
+    },
+    {
+      "source": "吴国太",
+      "target": "孙坚",
+      "value": "妻"
+    },
+    {
+      "source": "吴国太",
+      "target": "孙权",
+      "value": "母亲"
+    },
+    {
+      "source": "周瑜",
+      "target": "小乔",
+      "value": "夫"
+    },
+    {
+      "source": "夏侯楙",
+      "target": "清河公主",
+      "value": "夫"
+    },
+    {
+      "source": "夏侯渊",
+      "target": "夏侯惇",
+      "value": "堂弟"
+    },
+    {
+      "source": "夏侯渊",
+      "target": "夏侯楙",
+      "value": "父亲"
+    },
+    {
+      "source": "大乔",
+      "target": "孙策",
+      "value": "妾"
+    },
+    {
+      "source": "大乔",
+      "target": "陆逊",
+      "value": "岳母"
+    },
+    {
+      "source": "姜维",
+      "target": "诸葛亮",
+      "value": "徒弟"
+    },
+    {
+      "source": "孙坚",
+      "target": "孙权",
+      "value": "父亲"
+    },
+    {
+      "source": "孙尚香",
+      "target": "刘备",
+      "value": "妾"
+    },
+    {
+      "source": "孙尚香",
+      "target": "吴国太",
+      "value": "女儿"
+    },
+    {
+      "source": "孙权",
+      "target": "丁奉",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "凌统",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "吕蒙",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "周泰",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "周瑜",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "太史慈",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "孙策",
+      "value": "弟弟"
+    },
+    {
+      "source": "孙权",
+      "target": "张昭",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "徐盛",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "甘宁",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "程普",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "蒋钦",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "诸葛瑾",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "陆逊",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "韩当",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "鲁肃",
+      "value": "主公"
+    },
+    {
+      "source": "孙权",
+      "target": "黄盖",
+      "value": "主公"
+    },
+    {
+      "source": "孙氏",
+      "target": "孙策",
+      "value": "女儿"
+    },
+    {
+      "source": "孙氏",
+      "target": "陆逊",
+      "value": "妻"
+    },
+    {
+      "source": "孙策",
+      "target": "孙坚",
+      "value": "儿子"
+    },
+    {
+      "source": "孙韶",
+      "target": "孙策",
+      "value": "儿子"
+    },
+    {
+      "source": "小乔",
+      "target": "大乔",
+      "value": "妹妹"
+    },
+    {
+      "source": "庞德公",
+      "target": "庞统",
+      "value": "叔叔"
+    },
+    {
+      "source": "张宝",
+      "target": "张角",
+      "value": "弟弟"
+    },
+    {
+      "source": "张梁",
+      "target": "张宝",
+      "value": "弟弟"
+    },
+    {
+      "source": "张苞",
+      "target": "张飞",
+      "value": "儿子"
+    },
+    {
+      "source": "张飞",
+      "target": "刘备",
+      "value": "义弟"
+    },
+    {
+      "source": "曹丕",
+      "target": "卞氏",
+      "value": "儿子"
+    },
+    {
+      "source": "曹仁",
+      "target": "曹操",
+      "value": "同族"
+    },
+    {
+      "source": "曹嵩",
+      "target": "曹操",
+      "value": "父亲"
+    },
+    {
+      "source": "曹操",
+      "target": "乐进",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "于禁",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "典韦",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "司马懿",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "夏侯惇",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "夏侯惇",
+      "value": "同族"
+    },
+    {
+      "source": "曹操",
+      "target": "夏侯渊",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "夏侯渊",
+      "value": "同族"
+    },
+    {
+      "source": "曹操",
+      "target": "庞德",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "张绣",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "张辽",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "张郃",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "徐庶",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "徐晃",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "曹真",
+      "value": "义父"
+    },
+    {
+      "source": "曹操",
+      "target": "程昱",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "荀彧",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "荀攸",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "蒯越",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "蔡瑁",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "许褚",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "贾诩",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "邓艾",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "郭嘉",
+      "value": "主公"
+    },
+    {
+      "source": "曹操",
+      "target": "钟会",
+      "value": "主公"
+    },
+    {
+      "source": "曹昂",
+      "target": "刘氏",
+      "value": "儿子"
+    },
+    {
+      "source": "曹昂",
+      "target": "曹操",
+      "value": "儿子"
+    },
+    {
+      "source": "曹植",
+      "target": "曹丕",
+      "value": "弟弟"
+    },
+    {
+      "source": "曹爽",
+      "target": "曹真",
+      "value": "儿子"
+    },
+    {
+      "source": "曹纯",
+      "target": "曹仁",
+      "value": "弟弟"
+    },
+    {
+      "source": "清河公主",
+      "target": "曹操",
+      "value": "女儿"
+    },
+    {
+      "source": "王允",
+      "target": "刘协",
+      "value": "臣"
+    },
+    {
+      "source": "甘氏",
+      "target": "刘备",
+      "value": "妻"
+    },
+    {
+      "source": "祝融",
+      "target": "孟获",
+      "value": "妻"
+    },
+    {
+      "source": "糜氏",
+      "target": "刘备",
+      "value": "妾"
+    },
+    {
+      "source": "糜竺",
+      "target": "糜芳",
+      "value": "哥哥"
+    },
+    {
+      "source": "糜芳",
+      "target": "糜氏",
+      "value": "哥哥"
+    },
+    {
+      "source": "荀彧",
+      "target": "荀攸",
+      "value": "叔叔"
+    },
+    {
+      "source": "董卓",
+      "target": "刘协",
+      "value": "臣"
+    },
+    {
+      "source": "董卓",
+      "target": "吕布",
+      "value": "义父"
+    },
+    {
+      "source": "蒯越",
+      "target": "蔡瑁",
+      "value": "朋友"
+    },
+    {
+      "source": "蔡氏",
+      "target": "刘表",
+      "value": "妻"
+    },
+    {
+      "source": "蔡瑁",
+      "target": "蔡氏",
+      "value": "弟弟"
+    },
+    {
+      "source": "袁尚",
+      "target": "袁熙",
+      "value": "弟弟"
+    },
+    {
+      "source": "袁术",
+      "target": "袁绍",
+      "value": "弟弟"
+    },
+    {
+      "source": "袁熙",
+      "target": "袁谭",
+      "value": "弟弟"
+    },
+    {
+      "source": "袁绍",
+      "target": "刘协",
+      "value": "诸侯"
+    },
+    {
+      "source": "袁谭",
+      "target": "袁绍",
+      "value": "儿子"
+    },
+    {
+      "source": "诸葛亮",
+      "target": "姜维",
+      "value": "师傅"
+    },
+    {
+      "source": "诸葛瑾",
+      "target": "诸葛亮",
+      "value": "哥哥"
+    },
+    {
+      "source": "诸葛瞻",
+      "target": "刘禅",
+      "value": "女婿"
+    },
+    {
+      "source": "诸葛瞻",
+      "target": "诸葛亮",
+      "value": "儿子"
+    },
+    {
+      "source": "貂蝉",
+      "target": "吕布",
+      "value": "妾"
+    },
+    {
+      "source": "貂蝉",
+      "target": "王允",
+      "value": "义女"
+    },
+    {
+      "source": "邹氏",
+      "target": "张绣",
+      "value": "嫂子"
+    },
+    {
+      "source": "邹氏",
+      "target": "曹操",
+      "value": "妾"
+    },
+    {
+      "source": "韩遂",
+      "target": "马腾",
+      "value": "结拜"
+    },
+    {
+      "source": "马腾",
+      "target": "马超",
+      "value": "父亲"
+    },
+    {
+      "source": "马谡",
+      "target": "刘备",
+      "value": "臣"
+    },
+    {
+      "source": "马谡",
+      "target": "诸葛亮",
+      "value": "同事"
+    },
+    {
+      "source": "马谡",
+      "target": "马良",
+      "value": "弟弟"
+    },
+    {
+      "source": "黄承彦",
+      "target": "黄月英",
+      "value": "父亲"
+    },
+    {
+      "source": "黄月英",
+      "target": "诸葛亮",
+      "value": "妻"
+    }
+  ]
+}

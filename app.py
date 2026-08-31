@@ -1,53 +1,86 @@
-from flask import Flask, render_template, request, jsonify
-from flask_caching import Cache
-from datetime import timedelta
-from neo_db.query_graph import query, get_KGQA_answer, get_answer_profile
+from flask import Flask, jsonify, render_template, request, send_file
+
+from graph_data import CATEGORIES, chart_data, image_path, people, relations
 from KGQA.ltp import get_target_array
+from neo_db.query_graph import get_answer_profile, get_KGQA_answer, query
 
 app = Flask(__name__)
-app.config['SEND_FILE_MAX_AGE_DEFAULT'] = timedelta(seconds=1)
-# cache = Cache(app, config={'CACHE_TYPE': 'simple'})
-# cache.init_app(app)
+app.config.update(MAX_CONTENT_LENGTH=4096, MAX_FORM_MEMORY_SIZE=4096, MAX_FORM_PARTS=8)
 
 
-@app.route('/', methods=['GET', 'POST'])
-@app.route('/index', methods=['GET', 'POST'])
+def argument(name):
+    value = request.args.get(name) if request.method == "GET" else request.form.get(name)
+    if value is None or not value.strip() or len(value) > 200:
+        raise ValueError("参数不能为空，且不得超过 200 字符")
+    return value.strip()
 
-def index(name=None):
-    return render_template('index.html', name = name)
+
+@app.errorhandler(ValueError)
+def bad_request(error):
+    return jsonify(error=str(error)), 400
 
 
-@app.route('/search', methods=['GET', 'POST'])
+@app.errorhandler(KeyError)
+def unknown_person(error):
+    return jsonify(error="未找到该人物"), 404
+
+
+@app.after_request
+def security_headers(response):
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "same-origin"
+    response.headers["Content-Security-Policy"] = (
+        "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; "
+        "img-src 'self' data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+    )
+    return response
+
+
+@app.route("/")
+@app.route("/index")
+@app.route("/get_all_relation")
+def index():
+    return render_template("graph.html", mode="all", categories=CATEGORIES, names=sorted(people()))
+
+
+@app.route("/search")
 def search():
-    return render_template('search.html')
+    return render_template("graph.html", mode="search", categories=CATEGORIES, names=sorted(people()))
 
 
-@app.route('/KGQA', methods=['GET', 'POST'])
+@app.route("/KGQA")
 def KGQA():
-    return render_template('KGQA.html')
-@app.route('/get_profile',methods=['GET','POST'])
+    return render_template("graph.html", mode="qa", categories=CATEGORIES, names=sorted(people()))
+
+
+@app.route("/graph_data")
+def graph_data():
+    return jsonify(chart_data(relations()))
+
+
+@app.route("/get_profile", methods=["GET", "POST"])
 def get_profile():
-    name = request.args.get('character_name')
-    json_data = get_answer_profile(name)
-    return jsonify(json_data)
+    return jsonify(get_answer_profile(argument("character_name")))
 
-@app.route('/KGQA_answer', methods=['GET', 'POST'])
+
+@app.route("/portrait")
+def portrait():
+    path = image_path(argument("name"))
+    if path is None:
+        return "", 404
+    return send_file(path, mimetype="image/jpeg")
+
+
+@app.route("/KGQA_answer", methods=["GET", "POST"])
 def KGQA_answer():
-    question = request.args.get('name')
-    json_data = get_KGQA_answer(get_target_array(str(question)))
-    return jsonify(json_data)
-@app.route('/search_name', methods=['GET', 'POST'])
+    return jsonify(get_KGQA_answer(get_target_array(argument("name"))))
+
+
+@app.route("/search_name", methods=["GET", "POST"])
 def search_name():
-    name = request.args.get('name')
-    json_data=query(str(name))
-    return jsonify(json_data)
+    return jsonify(query(argument("name")))
 
 
-@app.route('/get_all_relation', methods=['GET', 'POST'])
-# @cache.cached(5)
-def get_all_relation():
-    return render_template('all_relation.html')
-
-if __name__ == '__main__':
-    app.debug=True
-    app.run()
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", debug=False)
