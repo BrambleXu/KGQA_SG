@@ -20,15 +20,6 @@ uv run --locked --no-dev python app.py
 
 应用默认仅监听本机，关闭调试器。这是本地学习工具；Flask 开发服务器不能直接作为公网生产服务。公网部署需要另行配置生产 WSGI 服务、HTTPS、访问控制及限流，本仓库不提供生产部署配置。
 
-不用 uv 时，可在 **Python 3.14** 虚拟环境中执行：
-
-```bash
-python -m pip install --require-hashes -r requirements.txt
-python app.py
-```
-
-`requirements.txt` 是从 `uv.lock` 生成的运行依赖清单，不要手工维护第二套版本。
-
 ## 使用方式与数据边界
 
 - **全部关系**：按阵营分组上色；拖动、缩放，点击节点查看简介。也可以展开图下的人物列表，用键盘选择人物。
@@ -98,19 +89,10 @@ Python 审计覆盖 `uv.lock` 中**全部第三方包**，包括开发工具、�
 
 GitHub Actions 在 push、PR 和每周执行检查；Dependabot 每周检查 uv、npm、Actions 更新。工作流只有只读仓库权限，不会自动合并或部署。
 
-更新 Python 依赖后生成运行清单：
-
-```bash
-uv lock --upgrade
-uv export --locked --no-dev --no-emit-project --no-header --output-file requirements.txt
-```
+更新 Python 依赖后运行 `uv lock --upgrade`。
 
 更新 ECharts 时，修改 `package.json` 中的精确版本，执行 `npm install --ignore-scripts`，然后：
 
 ```bash
 uv run --locked python scripts/vendor_assets.py
 ```
-
-提交相应锁文件、导出的 requirements、实际静态资源和 license/NOTICE，并运行上述全部检查。Dependabot 的 PR 也需要维护者补齐这些派生文件；CI 会拒绝它们与锁文件不一致的更新。
-
-安全修复清单、62 条 Dependabot 告警映射及扫描证据见 [安全修复记录](docs/security/remediation-2026-08-31.md)；修复前的全面检查见 [原始审计](docs/audit-2026-08-31.md)。

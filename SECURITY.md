@@ -8,9 +8,7 @@ Only the current Python 3.14 / uv-based code is maintained. The 2018 dependency 
 
 Run the checks in [README.md](README.md#开发与安全检查). Both Python and npm audits must pass, and the vendored browser assets must match the locked packages. A skipped or failed dependency lookup is a failed audit; there is no advisory allowlist. A clean scan only means no known vulnerability was reported by the databases at that time.
 
-For dependency updates, commit regenerated requirements and browser assets with the lockfiles. Never dismiss an alert solely to make the alert count zero.
-
-The [2026-08-31 remediation record](docs/security/remediation-2026-08-31.md) documents the original 62 GitHub alerts and the local fixes. GitHub closes dependency alerts only after it evaluates the updated default branch; local test results are not proof of remote closure.
+For dependency updates, commit updated lockfiles and browser assets together. Never dismiss an alert solely to make the alert count zero.
 
 ## Reporting
 
