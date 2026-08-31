@@ -21,7 +21,7 @@ pythonpath = ["."]
 
 [tool.ruff]
 target-version = "py314"
-include = ["app.py", "graph_data.py", "KGQA/ltp.py", "neo_db/*.py", "tests/*.py", "scripts/*.py"]
+include = ["app.py", "kgqa/*.py", "neo_db/*.py", "tests/*.py", "scripts/*.py"]
 
 [tool.ruff.lint]
 select = ["E4", "E7", "E9", "F"]

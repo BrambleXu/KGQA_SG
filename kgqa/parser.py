@@ -5,7 +5,7 @@ This is not a general NLP model and requires no native LTP package.
 """
 import re
 
-from graph_data import people, relations
+from kgqa.data import people, relations
 
 ALIASES = {"爸爸": "父亲", "爸": "父亲", "爹": "父亲", "妈妈": "母亲", "妈": "母亲", "娘": "母亲", "老婆": "妻", "妻子": "妻", "丈夫": "夫", "老公": "夫"}
 

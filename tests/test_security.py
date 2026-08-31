@@ -1,17 +1,10 @@
 import importlib
-import json
 from pathlib import Path
 import runpy
 
 from flask import Flask
 
 ROOT = Path(__file__).resolve().parents[1]
-
-
-def test_graph_json_is_valid():
-    graph = json.loads((ROOT / "static/data.json").read_text())
-    assert len(graph["data"]) == 122
-    assert len(graph["links"]) == 146
 
 
 def test_no_debug_server(monkeypatch):

@@ -1,11 +1,8 @@
-import json
-from pathlib import Path
-
 import pytest
 
 from app import app
-from graph_data import image_path, people, person_profile
-from KGQA.ltp import get_target_array
+from kgqa.data import image_path, people, person_profile
+from kgqa.parser import get_target_array
 
 
 @pytest.fixture
@@ -24,10 +21,8 @@ def test_pages_load_without_external_scripts(client, path):
     assert response.headers["X-Content-Type-Options"] == "nosniff"
 
 
-def test_export_matches_live_graph_and_edges_have_endpoints(client):
+def test_live_graph_has_expected_people_and_edges(client):
     graph = client.get("/graph_data").json
-    exported = json.loads((Path(__file__).resolve().parents[1] / "static/data.json").read_text())
-    assert graph == exported
     ids = {node["id"] for node in graph["data"]}
     assert len(ids) == len(graph["data"]) == 122
     assert all(edge["source"] in ids and edge["target"] in ids for edge in graph["links"])

@@ -4,13 +4,13 @@ import json
 from functools import lru_cache
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 CATEGORIES = ("魏国", "蜀国", "吴国", "群雄")
 
 
 @lru_cache(maxsize=1)
 def relations():
-    with (ROOT / "raw_data/triples_processed.txt").open(encoding="utf-8", newline="") as stream:
+    with (ROOT / "data/relationships.txt").open(encoding="utf-8", newline="") as stream:
         rows = tuple(sorted(set(tuple(row) for row in csv.reader(stream))))
     for row in rows:
         if len(row) != 5 or not all(row) or any(group not in CATEGORIES for group in row[3:]):

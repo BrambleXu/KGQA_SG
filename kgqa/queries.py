@@ -1,6 +1,6 @@
 """Read-only local queries. Neo4j is an optional teaching/export tool."""
-from KGQA.ltp import normalize_relation
-from graph_data import chart_data, people, person_profile, relations
+from kgqa.data import chart_data, people, person_profile, relations
+from kgqa.parser import normalize_relation
 
 
 def query(name):

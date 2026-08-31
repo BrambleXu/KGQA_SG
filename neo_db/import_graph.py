@@ -1,7 +1,7 @@
-"""Idempotent optional importer. Run: uv run --extra neo4j python -m neo_db.creat_graph"""
+"""Idempotent optional importer. Run: uv run --extra neo4j python -m neo_db.import_graph"""
 import os
 
-from graph_data import relations
+from kgqa.data import relations
 from neo_db.config import connect
 
 IMPORT_QUERY = """

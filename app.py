@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, render_template, request, send_file
 
-from graph_data import CATEGORIES, chart_data, image_path, people, relations
-from KGQA.ltp import get_target_array
-from neo_db.query_graph import get_answer_profile, get_KGQA_answer, query
+from kgqa.data import CATEGORIES, chart_data, image_path, people, relations
+from kgqa.parser import get_target_array
+from kgqa.queries import get_answer_profile, get_KGQA_answer, query
 
 app = Flask(__name__)
 app.config.update(MAX_CONTENT_LENGTH=4096, MAX_FORM_MEMORY_SIZE=4096, MAX_FORM_PARTS=8)
