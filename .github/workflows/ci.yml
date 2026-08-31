@@ -1,4 +1,4 @@
-name: Tests and dependency security
+name: CI
 
 on:
   push:
@@ -24,10 +24,17 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
-      - run: uv sync --locked --all-extras --all-groups
-      - run: uv run --locked --all-extras --all-groups pytest -q
-      - run: uv run --locked ruff check .
-      - run: npm ci --ignore-scripts
-      - run: uv run --locked python scripts/vendor_assets.py --check
-      - run: npm audit
-      - run: uv run --locked python scripts/audit_dependencies.py
+      - name: Install locked dependencies
+        run: |
+          uv sync --locked --all-extras --all-groups
+          npm ci --ignore-scripts
+      - name: Test and lint
+        run: |
+          uv run --locked --all-extras --all-groups pytest -q
+          uv run --locked ruff check .
+      - name: Verify vendored assets
+        run: uv run --locked python scripts/vendor_assets.py --check
+      - name: Audit dependencies
+        run: |
+          npm audit
+          uv run --locked python scripts/audit_dependencies.py
